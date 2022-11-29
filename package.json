@@ -1,0 +1,22 @@
+{
+  "name": "fischmailer",
+  "version": "1.0.0",
+  "description": "FISCHMAILER - INSTANT EMAIL NOTIFICATIONS!",
+  "main": "app.js",
+  "bin": "./app.js",
+  "dependencies": {
+    "sendmail": "^1.6.1"
+  },
+  "devDependencies": {
+    "pkg": "^5.8.0"
+  },
+  "pkg": {
+    "targets": [ "node14-linux" ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"Building....\" && ./node_modules/.bin/pkg ."
+  },
+  "author": "FISCHBROT",
+  "license": "MIT"
+}
